@@ -29,3 +29,7 @@
     font-size: 26px;
     color: #2C98A0;
 }
+
+.navbar-item:hover {
+    color: #000000
+}
