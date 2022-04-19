@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+}
+
+.header {
+    height: 90vh;
+    background-image: linear-gradient(to bottom, #C4C4C4, #EEEFF1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-text {
+    font-family: 'Caveat Brush', cursive;
+    font-size: 150px;
+    color: #2D3142;
+}
