@@ -1,20 +1,17 @@
 import './index.css';
-import Navbar from "./Navbar"
-import Header from './Header';
-import Video from './Video';
-import Story from './Story';
-import Facts from './Facts';
+import Navbar from "./navbar/Navbar"
 import Chatbot from './chatbot/Chatbots';
+import Footer from './footer/Footer';
+import Main from './main/Main';
+import Stories from './stories/Stories';
 
 function App() {
   return (
     <div className="App">
       <Chatbot />
       <Navbar />
-      <Header />
-      <Video />
-      <Story />
-      <Facts />
+      <Stories />
+      <Footer />
     </div>
   );
 }

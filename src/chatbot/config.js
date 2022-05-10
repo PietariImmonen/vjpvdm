@@ -2,7 +2,7 @@ import { createChatBotMessage } from "react-chatbot-kit";
 
 const config = {
     botname: "RokoteBot",
-    initialMessages: [createChatBotMessage(`Hello`)],
+    initialMessages: [createChatBotMessage(`Heippa, mahdolliset komentomme ovat /rokote, /meemi`)],
     customStyles: {
         botMessageBox: {
             backgroundColor: '#2D3142',

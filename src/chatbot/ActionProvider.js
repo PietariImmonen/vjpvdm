@@ -15,8 +15,13 @@ class ActionProvider {
    }
 
    greet = () => {
-     const message = this.createChatBotMessage("Hello friend.")
+     const message = this.createChatBotMessage("Hello friend.");
      this.addChatbotMessageToState(message);
+   }
+
+   vaccine = () => {
+       const message = this.createChatBotMessage("Tälläistä tietoa on rokotteista blää blää blää");
+       this.addChatbotMessageToState(message);
    }
 
    addChatbotMessageToState = (message) => {

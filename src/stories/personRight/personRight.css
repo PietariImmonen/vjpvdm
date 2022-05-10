@@ -1,0 +1,45 @@
+.personRight {
+    display: flex;
+    gap: 20px;
+    background: #C4D9D7;
+}
+
+.personRight-image {
+    width: 405px;
+    height: 540px;
+    margin: 3rem;
+    border-radius: 20px;
+}
+
+.personRight-text-holder {
+    margin: 2rem 2rem 0 5rem;
+}
+
+.personRight-h1 {
+    font-family: 'Caveat Brush';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 121px;
+    color: #2C98A0;
+    margin: 0;
+}
+
+.personRight-h3 {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 47px;
+    color: #2C98A0;
+}
+
+.personRight-paragraph {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+    max-width: 754px;
+}

@@ -1,0 +1,48 @@
+.footer {
+    background: #9BC4BC;
+    height: 50vh;
+    display: flex;
+    gap: 20vw 25vw;
+    
+}
+
+.footer-logo{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    margin: 4rem;
+    justify-content: center;
+}
+
+.helsinki-png {
+    width: 200px;
+}
+
+.hus-png {
+    width: 200px;
+}
+
+.footer-contacts {
+    margin-top: 2.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-social {
+    margin-top: 3rem;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    font-weight: 500;
+}
+
+.social-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}

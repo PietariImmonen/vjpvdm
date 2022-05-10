@@ -1,0 +1,4 @@
+.gradientBottom {
+    height: 68px;
+    background: linear-gradient(180deg, #9BC4BC 0.03%, #CCE1DD 0.04%, #9BC4BC 99.96%, #EEEFF1 99.97%, #EEEFF1 99.98%);
+}

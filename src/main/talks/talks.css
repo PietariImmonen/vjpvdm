@@ -1,0 +1,32 @@
+.talks {
+    margin: 0 7rem 2rem 7rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    line-height: 37.5px;
+    height: 100vh;
+}
+
+.talks-header {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+
+    color: #2C98A0;
+}
+
+.talks-container2 {
+    display: flex;
+}
+
+.talks-image-holder {
+    width: 721px;
+    height: 297px;
+    background: red;
+    margin-left: 70px;
+}
+
+.talks-container2-text1 {
+    max-width: 300px;
+}

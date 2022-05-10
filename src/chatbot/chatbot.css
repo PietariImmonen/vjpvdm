@@ -2,3 +2,17 @@
     max-width: 300px;
     font-family: 'Roboto', sans-serif;
 }
+
+
+
+.react-chatbot-kit-chat-bot-avatar-container {
+    background-color: blue;
+}
+
+.react-chatbot-kit-chat-bot-avatar-icon {
+    background-color: blue;
+}
+
+.react-chatbot-kit-chat-btn-send {
+    background-color: yellow;
+}
