@@ -1,8 +1,8 @@
-.storiesHeader {
+.factsHeader {
     margin: 10rem;
 }
 
-.storiesHeader-header {
+.factsHeader-header {
     font-family: 'Roboto';
     font-style: italic;
     font-weight: 400;
@@ -12,7 +12,7 @@
     color: #2C98A0;
 }
 
-.storiesHeader-text {
+.factsHeader-text {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;

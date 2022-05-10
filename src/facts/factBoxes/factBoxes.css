@@ -1,0 +1,98 @@
+.factBoxes {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.factBoxes-first {
+    display: flex;
+    margin: 2rem;
+}
+
+.factBoxes-second {
+    display: flex;
+    margin: 2rem;
+}
+
+.factBoxes-third {
+    display: flex;
+    margin: 2rem;
+}
+
+.first-firstBox {
+    width: 743px;
+    height: 358px;
+    background: #E7E7E7;
+    margin: 1rem;
+    border-radius: 15px;
+}
+
+.first-secondBox {
+    width: 531px;
+    height: 358px;
+    background: #2C98A0;
+    margin: 1rem;
+    border-radius: 15px;
+}
+
+.third-firstBox {
+    width: 718px;
+    height: 370px;
+    background: #E7E7E7;
+    margin: 1rem;
+    border-radius: 15px;
+}
+
+.third-secondBox {
+    width: 556px;
+    height: 370px;
+    background: #2C98A0;
+    margin: 1rem;
+    border-radius: 15px;
+}
+
+.factBox-normal {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+    margin: 1rem;
+}
+
+.factBox-big {
+    font-weight: 700;
+    font-size: 110px;
+    line-height: 129px;
+    color: #2C98A0;
+    margin: 1rem;
+}
+
+.factBox-difBig {
+    font-family: 'Caveat Brush';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 120px;
+    color: #CCE1DD;
+    margin: 3rem 0 0 2rem;
+}
+
+.factBox-dif {
+    font-weight: 400;
+    font-size: 32px;
+    color: #FFFFFF;
+    margin-left: 1rem;
+    line-height: 35px;
+    height: 50px;
+    margin-bottom: 1rem;
+}
+
+.factBox-difs {
+    font-weight: 400;
+    font-size: 32px;
+    color: #FFFFFF;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    line-height: 35px;
+    margin-bottom: 1rem;
+}

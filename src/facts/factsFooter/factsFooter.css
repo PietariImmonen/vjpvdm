@@ -1,0 +1,88 @@
+.factsFooter {
+    font-family: 'Roboto', sans-serif;
+    padding: 2rem;
+    margin: 3rem;
+}
+
+.factsFooter-paragraph {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.factsFooter-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.factsFooter-div1 {
+    width: 1300px;
+    height: 330px;
+    background: #E7E7E7;
+    border-radius: 15px;
+}
+
+.factsFooter-div1-flex {
+    display: flex;
+    gap: 20px;
+}
+
+.fa-check {
+    margin: 1.5rem;
+}
+
+.factsFooter-div1-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.factsFooter-div1-text-bold {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    height: 30px;
+    color: #2C98A0;
+}
+
+.factsFooter-div1-text-light {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    max-height: 40px;
+}
+
+.factsFooter-div2 {
+    width: 1300px;
+    height: 330px;
+    background: #2C98A0;
+    border-radius: 15px;
+}
+.factsFooter-div2-flex {
+    display: flex;
+    gap: 20px;
+}
+
+.factsFooter-div2-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.factsFooter-div2-text-bold {
+    font-family: 'Caveat Brush';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 45px;
+    height: 30px;
+    color: #CCE1DD;
+}
+
+.factsFooter-div2-text-light {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
