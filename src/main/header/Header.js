@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import "./header.css"
-import { SliderData } from './SliderData'
 
 export default function Header(props) {
 
   const [current, setCurrent] = useState(0);
-  const slideLength = SliderData.length
+  const slideLength = props.slides.length
 
   const automatic = true;
   let slideInterval;
@@ -35,7 +34,7 @@ export default function Header(props) {
   return (
     <div>
         <h1 className='header-text'>Jutellaan rokotteista</h1>
-          {SliderData.map((img, index) => {
+          {props.slides.map((img, index) => {
             return (
               <div className={index === current ? "slide active" : "slide"} key={index}>
                 {index === current && (<img src={img.image} alt="slider" className='slider-image'/>)}
