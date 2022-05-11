@@ -43,10 +43,12 @@
     flex-direction: column;
     gap: 80px;
     font-weight: 500;
+    color: #ffffff;
 }
 
 .social-container {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    color: #ffffff;
 }

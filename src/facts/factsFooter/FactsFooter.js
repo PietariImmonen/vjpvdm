@@ -9,7 +9,7 @@ export default function FactsFooter() {
         <p className='factsFooter-paragraph'>Rokotteissa on vain ainesosio, jotka ovat tarpeellisia rokotteen
              toimivuuden kannalta. Rokotteista aiheuttavat välillä lieviä
             haittavaikutuksia, kuten pistokohtan kipeyttä tai kuumetta,
-            mutta vakavat haittavaikutukset ovat harvinaisia. 
+            mutta vakavat haittavaikutukset ovat harvinaisia.
         </p>
         <p className='factsFooter-paragraph'>Nykyiset
             rokotteet ovatkin äärimmäisen turvallisia. Niiden kehitys
