@@ -1,15 +1,15 @@
 .storiesHeader {
-    margin: 10rem;
+    margin: 10rem 10rem 5rem 10rem;
 }
 
 .storiesHeader-header {
     font-family: 'Roboto';
     font-style: italic;
     font-weight: 400;
-    font-size: 80px;
-    line-height: 112px;
-
+    font-size: 74px;
+    line-height: 84px;
     color: #2C98A0;
+    margin: 0;
 }
 
 .storiesHeader-text {

@@ -12,9 +12,9 @@ export default function Navbar() {
     <div className="navbar">
         <div className='navbar-items'>
             <ul className='navbar-list'>
-                <Link style={style} to="/"><li className='navbar-item'>etusivu</li></Link>
-                <Link style={style} to="/stories"><li className='navbar-item'>meidän tarinat</li></Link>
-                <Link style={style} to="/facts"><li className='navbar-item'>faktatietoa</li></Link>
+                <Link style={style} to="/"><li className='navbar-item'>Etusivu</li></Link>
+                <Link style={style} to="/stories"><li className='navbar-item'>Tarinat</li></Link>
+                <Link style={style} to="/facts"><li className='navbar-item'>Tietoa</li></Link>
             </ul>
         </div>
     </div>

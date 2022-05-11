@@ -2,11 +2,11 @@
     display: flex;
     gap: 20px;
     background: #C4D9D7;
+    align-items: center;
 }
 
 .personRight-image {
-    width: 405px;
-    height: 540px;
+    height: 750px;
     margin: 3rem;
     border-radius: 20px;
 }
@@ -20,7 +20,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 96px;
-    line-height: 121px;
+    line-height: 104px;
     color: #2C98A0;
     margin: 0;
 }
@@ -30,7 +30,7 @@
     font-style: italic;
     font-weight: 400;
     font-size: 30px;
-    line-height: 47px;
+    line-height: 32px;
     color: #2C98A0;
 }
 
