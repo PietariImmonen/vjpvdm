@@ -6,7 +6,7 @@ import FactsFooterDiv2 from './FactsFooterDiv2';
 export default function FactsFooter() {
   return (
     <div className='factsFooter'>
-        <p className='factsFooter-paragraph'>Rokotteissa on vain aineisosia, jotka ovat tarpeellisia rokotteen
+        <p className='factsFooter-paragraph'>TESTI Rokotteissa on vain aineisosia, jotka ovat tarpeellisia rokotteen
              toimivuuden kannalta. Rokotteista aiheuttavat välillä lieviä
             haittavaikutuksia, kuten pistokohtan kipeyttä tai kuumetta,
             mutta vakavat haittavaikutukset ovat harvinaisia. Nykyiset
