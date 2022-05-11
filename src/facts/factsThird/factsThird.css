@@ -1,7 +1,7 @@
 .factsThird {
     font-family: 'Roboto', sans-serif;
     background: #CCE1DD;
-    padding: 2rem;
+    padding: 2rem 7rem;
 }
 
 .factsThird-h1 {
@@ -46,7 +46,7 @@
     margin: 2rem;
     font-weight: 400;
     font-size: 24px;
-    line-height: 38px;
+    line-height: 32px;
     text-align: center;
 }
 
