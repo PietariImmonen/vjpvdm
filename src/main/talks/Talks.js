@@ -22,7 +22,6 @@ export default function Talks() {
                 pienimmät!
             </p>
             <div className='talks-image-holder'>
-
             </div>
         </div>
     </div>

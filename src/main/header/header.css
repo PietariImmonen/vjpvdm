@@ -2,18 +2,16 @@ body {
     margin: 0;
 }
 
-.header {
-    height: 90vh;
-    background-image: linear-gradient(to bottom, #C4C4C4, #EEEFF1);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 
 .header-text {
     font-family: 'Caveat Brush', cursive;
     font-size: 150px;
     color: #2D3142;
+    position: absolute;
+    top: 30%;
+    right: 150px;
+    z-index: 11;
 }
 
 .slider {
@@ -25,9 +23,9 @@ body {
 }
 
 .slider-image {
-    width: 500px;
-    height: 300px;
-    border-radius: 10px;
+    margin-top: 5rem;
+    width: 100vw;
+    opacity: 0.5;
 }
 
 .right-arrow {

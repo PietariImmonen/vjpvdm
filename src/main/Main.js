@@ -10,7 +10,7 @@ export default function Main() {
     <div>
         <Header slides={SliderData}/>
         <Video />
-        <Talks />
+        <Talks/>
         <GradientMain />
     </div>
   )

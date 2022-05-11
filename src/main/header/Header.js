@@ -1,28 +1,40 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import "./header.css"
 import { SliderData } from './SliderData'
-import { FaCaretRight, FaCaretLeft } from 'react-icons/fa';
 
 export default function Header(props) {
 
   const [current, setCurrent] = useState(0);
-  const length = props.slides.length;
+  const slideLength = SliderData.length
 
-  if(!Array.isArray(props.slides) || props.slides.length <= 0) {
-    return null
-  }
+  const automatic = true;
+  let slideInterval;
+  let intervalTime = 5000;
 
-  const prevSlide = () => {
-    setCurrent(current === 0 ? length - 1 : current -1)
-  }
   const nextSlide = () => {
-    setCurrent(current === length - 1 ? 0 : current + 1)
+    setCurrent(current === slideLength - 1 ? 0 : current + 1);
+    console.log("next");
+  };
+
+  function auto() {
+    slideInterval = setInterval(nextSlide, intervalTime);
   }
+
+  useEffect(() => {
+    setCurrent(0);
+  }, []);
+
+  useEffect(() => {
+    if (automatic) {
+      auto();
+    }
+    return () => clearInterval(slideInterval);
+  }, [current]);
+
+
   return (
-    <div className='header'>
-      <div className='slider'>
-        <FaCaretLeft size={"100px"} className='left-arrow' onClick={prevSlide}/>
-        <FaCaretRight size={"100px"} className='right-arrow' onClick={nextSlide}/>
+    <div>
+        <h1 className='header-text'>Jutellaan rokotteista</h1>
           {SliderData.map((img, index) => {
             return (
               <div className={index === current ? "slide active" : "slide"} key={index}>
@@ -31,7 +43,7 @@ export default function Header(props) {
               
             )
           })}
-      </div>
+      
     </div>
   )
 }
