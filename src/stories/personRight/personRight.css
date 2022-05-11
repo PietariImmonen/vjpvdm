@@ -43,3 +43,7 @@
     color: #000000;
     max-width: 754px;
 }
+
+.personRight-quote {
+    font-style: italic;
+}

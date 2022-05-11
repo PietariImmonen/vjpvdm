@@ -44,3 +44,7 @@
     color: #000000;
     max-width: 655px;
 }
+
+.personLeft-quote {
+    font-style: italic;
+}

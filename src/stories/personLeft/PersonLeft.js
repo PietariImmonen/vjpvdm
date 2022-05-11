@@ -11,6 +11,7 @@ export default function PersonLeft(props) {
                 <div className='personLeft-h3'>{props.nameText}</div>
             </div>
             <p className='personLeft-paragraph'>{props.paragraph}</p>
+            <p className='personLeft-paragraph personLeft-quote'>{props.paragraph2}</p>
         </div>
     </div>
   )

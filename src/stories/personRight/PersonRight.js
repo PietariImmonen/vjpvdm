@@ -10,6 +10,7 @@ export default function PersonRight(props) {
                 <div className='personRight-h3'>{props.nameText}</div>
             </div>
             <p className='personRight-paragraph'>{props.paragraph}</p>
+            <p className='personRight-paragraph personRight-quote'>{props.paragraph2}</p>
         </div>
         <img src={props.image} alt="imag" className='personRight-image'/>
     </div>
