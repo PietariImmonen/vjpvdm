@@ -57,7 +57,7 @@
     font-size: 24px;
     line-height: 30px;
     color: #000000;
-    margin: 1rem;
+    margin: 2rem;
 }
 
 .factBox-big {
@@ -65,7 +65,7 @@
     font-size: 110px;
     line-height: 129px;
     color: #2C98A0;
-    margin: 1rem;
+    margin: 2rem;
 }
 
 .factBox-difBig {
@@ -82,9 +82,9 @@
     font-size: 24px;
     line-height: 30px;
     color: #FFFFFF;
-    margin-left: 1rem;
+    margin-left: 2rem;
     height: 50px;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .factBox-difs {
@@ -92,7 +92,5 @@
     font-size: 24px;
     line-height: 30px;
     color: #FFFFFF;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
+    margin: 2rem;
 }
