@@ -2,3 +2,10 @@
     height: 68px;
     background: linear-gradient(180deg, #FFFFFF 0%, #9BC4BC 100%);
 }
+
+@media (max-width: 700px) {
+    .gradientMain {
+    margin-top: 120%;
+    }
+}
+

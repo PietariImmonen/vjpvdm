@@ -17,7 +17,7 @@ function App() {
               <Route path="/stories" element={<Stories />} />
               <Route path="/facts" element={<Facts />} />
             </Routes>
-          <Footer />
+          
       </div>
     </Router>
   );

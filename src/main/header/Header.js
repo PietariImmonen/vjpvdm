@@ -32,8 +32,10 @@ export default function Header(props) {
 
 
   return (
-    <div>
+    <div className='header'>
+      <div className='header-container'>
         <h1 className='header-text'>Jutellaan rokotteista</h1>
+      </div>
           {props.slides.map((img, index) => {
             return (
               <div className={index === current ? "slide active" : "slide"} key={index}>
