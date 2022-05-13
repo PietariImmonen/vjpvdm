@@ -7,7 +7,10 @@ export default function FactsThird() {
     <div className='factsThird'>
         <div className='factsThird-h1'>Lapset kohtaavat päivittäin valtavan määrän, tuhansia erilaisia viruksia.
          Rokotteet opettavat lapsesi immuunijärjestelmää puolustustautumaan sellaisilta viruksilta,
-          joita ihminen ei vielä syntyessään tunnista. Rokotteet eivät sisällä toimivaa virusta sellaisenaan,
+          joita ihminen ei vielä syntyessään tunnista. 
+        </div>
+        <div className='factsThird-h1'>
+           Rokotteet eivät sisällä toimivaa virusta sellaisenaan,
            vaan immuunijärjestelmän aktivointi tapahtuu muilla tavoin. On useita syitä hankkia rokote.
         </div>
         <div className='factsThird-flex'>

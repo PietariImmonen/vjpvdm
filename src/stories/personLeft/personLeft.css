@@ -3,12 +3,12 @@
     gap: 20px;
     background: #CDE1DE;
     align-items: center;
+    padding: 0 5rem;
 }
 
 .personLeft-image {
-    width: 405px;
-    height: 540px;
-    margin: 5rem;
+    height: 750px;
+    margin: 5rem 3rem 5rem 5rem;
     border-radius: 20px;
 }
 
@@ -21,7 +21,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 96px;
-    line-height: 121px;
+    line-height: 104px;
     color: #2C98A0;
     margin: 0;
 }
@@ -31,7 +31,7 @@
     font-style: italic;
     font-weight: 400;
     font-size: 30px;
-    line-height: 47px;
+    line-height: 32px;
     color: #2C98A0;
 }
 
@@ -43,4 +43,8 @@
     line-height: 30px;
     color: #000000;
     max-width: 655px;
+}
+
+.personLeft-quote {
+    font-style: italic;
 }

@@ -48,7 +48,7 @@ export default function FactBoxes() {
             </div>
             <div className='third-secondBox'>
                 <p className='factBox-difs'>Nykyiset rokotteet ovat äärimmäisen turvallisia.
-                 Todennäköisyys saada vakava allerginen reaktio rokotteesta on noin.</p>
+                 Todennäköisyys saada vakava allerginen reaktio rokotteesta on noin</p>
                 <p className='factBox-difBig'>0,0001%</p>
             </div>
         </div>

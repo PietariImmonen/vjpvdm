@@ -3,6 +3,7 @@ import FactBoxes from './factBoxes/FactBoxes'
 import FactsFooter from './factsFooter/FactsFooter'
 import FactsHeader from './factsHeader/FactsHeader'
 import FactsThird from './factsThird/FactsThird'
+import FactsSources from './factsSources/FactsSources'
 
 export default function Facts() {
   return (
@@ -11,6 +12,7 @@ export default function Facts() {
         <FactBoxes />
         <FactsThird />
         <FactsFooter />
+        <FactsSources />
     </div>
   )
 }

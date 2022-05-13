@@ -36,5 +36,6 @@
 }
 
 .navbar-item:hover {
-    color: #000000
+    color: #000000;
+    text-decoration: underline;
 }

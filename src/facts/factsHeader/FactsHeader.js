@@ -9,9 +9,12 @@ export default function FactsHeader() {
         <p className='factsHeader-text'>
         Lasten ja nuorten rokottamattomuus on Suomessa erittäin harvinaista.
          Ensimmäinen rokote – isorokkoa vastaan – otettiin 
-         käyttöön jo vuonna 1802. Sen kahdensadan vuoden ajan 
+         käyttöön jo vuonna 1802. Viimeisen kahdensadan vuoden ajan 
          rokotteet ovat kehittyneet tehokkaaksi ja turvalliseksi 
-         tavaksi torjua kaikenlaisia infektiotauteja. Rokotteet eivät 
+         tavaksi torjua kaikenlaisia infektiotauteja. 
+        </p>
+        <p className='factsHeader-text'>
+         Rokotteet eivät 
          aina välttämättä anna täydellistä suojaa tartunnalta, mutta yleensä 
          hyvän ja pitkäaikaisen vastustuskyvyn jopa hengenvaarallisia tauteja vastaan.
         </p>
