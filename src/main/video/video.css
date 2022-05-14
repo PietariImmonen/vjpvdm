@@ -4,3 +4,16 @@
     align-items: center;
     margin: 2rem;
 }
+
+@media (max-width: 650px) {
+    .video {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem;
+        width: 70%;
+        height: auto;
+        margin-left: 10%;
+       
+    }  
+}

@@ -48,3 +48,26 @@
 .personLeft-quote {
     font-style: italic;
 }
+
+@media (max-width: 700px) {
+    .personLeft-image {
+        height: 300px;
+        margin-top: -1000px;
+        margin-left: -50px;
+    }
+    .personLeft-h1 {
+        font-family: 'Caveat Brush';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 46px;
+        line-height: 54px;
+        
+    }
+    .personLeft-h3 {
+        font-family: 'Roboto';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 27px;
+        line-height: 29px;
+    }
+}

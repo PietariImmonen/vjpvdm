@@ -2,3 +2,11 @@
     height: 68px;
     background: linear-gradient(180deg, #FFFFFF 0%, #CCE1DD 100%);
 }
+
+@media (max-width: 700px) {
+    .gradient {
+        display: flex;
+        width: 100%;
+
+    }
+}
