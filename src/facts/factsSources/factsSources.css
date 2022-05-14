@@ -18,6 +18,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 18px;
+    gap: 20px;
 }
 .factsSources-list a{
     text-decoration: none;
@@ -26,4 +27,8 @@
 .factsSources-list a:hover{
     text-decoration:underline;
     color: #2C98A0;
+}
+
+@media screen and (max-width: 768px) {
+
 }

@@ -31,7 +31,10 @@ function App() {
               <Route path="/stories" element={<Stories />} />
               <Route path="/facts" element={<Facts />} />
             </Routes>
-          
+            <div onClick={help} className="chatbot-button">Click chatbot</div>
+            <div className='chatbot-div'>
+            {chatBot? <Chatbot /> : ""}
+            </div>
           
       </div>
     </Router>

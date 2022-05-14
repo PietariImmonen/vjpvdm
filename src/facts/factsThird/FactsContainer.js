@@ -5,8 +5,8 @@ import "./factsThird.css"
 export default function FactsContainer(props) {
 
     const bgColor = props.bgColor ? "#2C98A0" : "white" ;
-    const textColor = props.textColor ? "white" : "#000000";
-    const headerColor = props.headerColor ? "#CCE1DD" : "#2C98A0";
+    const textColor = props.bgColor ? "white" : "#000000";
+    const headerColor = props.bgColor ? "#CCE1DD" : "#2C98A0";
 
   return (
     <div className='factsContainer' style={{

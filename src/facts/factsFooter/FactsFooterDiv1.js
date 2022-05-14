@@ -6,7 +6,6 @@ export default function FactsFooterDiv1(props) {
   return (
         <div className='factsFooter-div1'>
                <div className="factsFooter-div1-flex">
-                   <FaCheck className="fa-check"/>
                    <div className='factsFooter-div1-text'>
                        <p className='factsFooter-div1-text-bold'>{props.header}</p>
                        <p className='factsFooter-div1-text-light'>{props.text}</p>

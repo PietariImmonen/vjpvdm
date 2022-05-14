@@ -19,3 +19,13 @@
     font-size: 24px;
     line-height: 30px;
 }
+
+@media screen and (max-width: 768px) {
+    .factsHeader {
+        margin: 3rem 3rem 0 3rem;
+    }
+
+    .factsHeader-text {
+        font-size: 18px;
+    }
+}

@@ -107,3 +107,62 @@
     color: #FFFFFF;
     margin: 0 2rem;
 }
+
+@media screen and (max-width: 768px) {
+    .factBoxes {
+        margin: 0;
+        padding: 0;
+    }
+
+    .factBoxes-first {
+        flex-direction: column;
+    }
+
+    .factBoxes-second {
+        flex-direction: column;
+    }
+
+    .factBoxes-third {
+        flex-direction: column;
+    }
+
+    .first-firstBox {
+        width: 300px;
+        height: 500px;
+    }
+
+    .first-secondBox {
+        width: 300px;
+        height: 300px;
+    }
+
+    .third-firstBox {
+        width: 300px;
+        height: 500px;
+    }
+
+    .third-secondBox {
+        width: 300px;
+        height: 300px;
+    }
+
+    .factBox-normal {
+        font-size: 18px;
+    }
+
+    .factBox-big {
+        font-size: 48px;
+    }
+
+    .factBox-dif {
+        font-size: 18px;
+    }
+
+    .factBox-difBig {
+        font-size: 48px;
+    }
+
+    .factBox-difs {
+        font-size: 18px;
+    }
+  }
