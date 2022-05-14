@@ -2,6 +2,33 @@ body {
     margin: 0;
 }
 
+.header {
+    position: relative;
+}
+
+div img{ /* This is for image fluid resizing. */
+    width: 100vw;
+    height: auto;
+  }
+  
+  .relative{ position: relative; }
+  .city-name{
+      font-family: 'open_sansbold';
+      font-size: 32px;
+      color: white;
+      position: absolute; /* Every absolute position should be contained by a relative position. */
+      top: 0; /* Every position is set to 0. */
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 1; /* This will let your text be seen every time. */
+      margin: auto; /* Margin will do the trick to center the content. */
+      width: 100%; /* Width and Height is needed to let positions center the content. */
+      height: 30px;
+      text-align: center; /* Text align center because we used width: 100%; so we could writte any size text and it will be centered. */
+      line-height: 1em; /* This is not important. */
+  }
+
 
 
 .header-text {
@@ -9,51 +36,44 @@ body {
     font-size: 150px;
     color: #2D3142;
     position: absolute;
-    top: 30%;
-    right: 150px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    height: 30px;
+    text-align: center;
     z-index: 11;
 }
 
 .slider {
     position: relative;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 100vw;
+    height: auto;
 }
-
 .slider-image {
     margin-top: 5rem;
     width: 100vw;
+    height: auto;
     opacity: 0.5;
 }
 
+@media (max-width: 1000px) {
 
-
-
-
-@media (max-width: 700px) {
     .header-text {
-        font-family: 'Caveat Brush', cursive;
-        font-size: 40px;
-        color: #2D3142;
-        position: absolute;
-        top: 30%;
-        z-index: 11;
-        max-width: 80%;
-    }
-    .slider {
-        position: relative;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        font-size: 60px;
     }
 
-    .header {
-        width: 100vw;
-        height: 80vh;
-        
+    
+} 
+
+
+
+@media (max-width: 768px) {
+
+    .header-text {
+        font-size: 40px;
     }
 
     

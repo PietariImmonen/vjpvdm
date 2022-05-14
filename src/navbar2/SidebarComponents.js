@@ -1,4 +1,4 @@
-/*import { FaTimes } from 'react-icons/fa';
+import { FaTimes } from 'react-icons/fa';
 import { Link as Links } from 'react-router-dom';
 import styled from 'styled-components';
 
@@ -73,4 +73,3 @@ export const SidebarLink = styled(Links)`
     }
 `
 
-*/

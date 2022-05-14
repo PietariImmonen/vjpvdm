@@ -8,6 +8,7 @@
     cursor: pointer;
     border-radius: 50%;
     z-index: 14;
+    display: block;
 }
 
 .chatbot-div {
@@ -15,4 +16,10 @@
     right: 90px;
     position: fixed;
     z-index: 13;
+}
+
+@media screen and (max-width: 1000px) {
+    .chatbot-button{
+        display: none;
+    }
 }

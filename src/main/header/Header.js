@@ -33,9 +33,24 @@ export default function Header(props) {
 
   return (
     <div className='header'>
-      <div className='header-container'>
         <h1 className='header-text'>Jutellaan rokotteista</h1>
-      </div>
+        <div className='slider'>
+          {props.slides.map((img, index) => {
+            return (
+              <div className={index === current ? "slide active" : "slide"} key={index}>
+                {index === current && (<img src={img.image} alt="slider" className='slider-image'/>)}
+              </div>
+        
+            )
+          })}
+        </div>
+    </div>
+  )
+}
+
+/*
+    <div className='header'>
+        <h1 className='header-text'>Jutellaan rokotteista</h1>
           {props.slides.map((img, index) => {
             return (
               <div className={index === current ? "slide active" : "slide"} key={index}>
@@ -44,7 +59,5 @@ export default function Header(props) {
               
             )
           })}
-      
     </div>
-  )
-}
+*/

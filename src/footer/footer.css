@@ -2,15 +2,20 @@
     background: #9BC4BC;
     height: 50vh;
     display: flex;
-    gap: 20vw 25vw;
-    
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.footer-logo-contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-logo{
     display: flex;
     flex-direction: column;
     gap: 80px;
-    margin: 4rem;
     justify-content: center;
 }
 
@@ -23,13 +28,13 @@
 }
 
 .footer-contacts {
-    margin-top: 2.4rem;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 600;
+    padding-top: 1rem;
 }
 
 .footer-contacts p {
@@ -38,7 +43,6 @@
 
 .footer-social {
     margin-top: 3rem;
-    margin-right: 1rem;
     display: flex;
     flex-direction: column;
     gap: 80px;
@@ -51,4 +55,19 @@
     flex-direction: column;
     gap: 15px;
     color: #ffffff;
+}
+
+@media screen and (max-width: 1000px) {
+    .footer-logo-contacts {
+        flex-direction: column;
+    }
+
+    .footer-contacts {
+        font-size: 14px;
+        gap: 10px;
+    }
+
+    .footer {
+       padding-bottom: 3rem;
+    }
 }

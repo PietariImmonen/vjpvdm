@@ -25,7 +25,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        
+        <WholeNav />
             <Routes>
               <Route path="/" exact element={<Main />} />
               <Route path="/stories" element={<Stories />} />
@@ -35,7 +35,7 @@ function App() {
             <div className='chatbot-div'>
             {chatBot? <Chatbot /> : ""}
             </div>
-          
+        <Footer />
       </div>
     </Router>
   );
