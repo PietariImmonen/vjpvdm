@@ -21,10 +21,7 @@ export default function Talks() {
                 ottaa mukaan myös perheen
                 pienimmät!
             </p>
-            <div className='talks-image-holder'>
-
-             <img src="/Lastenpiirros.png" alt="slider" className='talks-img'/>
-            </div>
+            <img src="/Lastenpiirros.png" alt="slider" className='talks-img'/>
         </div>
     </div>
   )

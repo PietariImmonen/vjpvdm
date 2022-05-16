@@ -4,8 +4,8 @@
 }
 
 @media (max-width: 700px) {
-    .gradientMain {
-    margin-top: 120%;
+    .gradientMain{
+        margin-top: 20%;
     }
 }
 

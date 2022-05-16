@@ -16,73 +16,85 @@
     color: #2C98A0;
 }
 
+.talks-container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .talks-container2 {
     display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-around;
 }
 
-
-
-.talks-container2-text1 {
-    max-width: 300px;
-}
 .talks-img {
-    width: 721px;
-    height: 297px;
+    width: 400px;
+    height: auto;
     border: 2px solid #2C98A0;
-    margin-left: 1rem;
-}
-.talks-image-holder {
-    width: 721px;
-    height: 297px;
-    border: 10px #2C98A0; 
-
 }
 
 @media (max-width: 1024px) {
     .talks-img {
-        width: 500px;
+        width: 250px;
         height: auto;
+        margin: 0;
+    }
+    .talks-container1-text1 {
+        font-size: 20px;
+        line-height: 30px;
+        min-width: 350px;
+    }
+    .talks-container1-text2 {
+        font-size: 20px;
+        line-height: 30px;
+        min-width: 350px;   
+    }
+    .talks-container2-text1 {
+        font-size: 20px;
+        line-height: 30px;
+        min-width: 350px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 750px) {
+
+    .talks {
+        margin: 2rem;
+        position: relative;
+    }
     
-.talks-header {
-    font-size: 31px;
-    line-height: 43px;
-    margin-left: -20%;
-}
-.talks-container1-text1 {
-    font-size: 22px;
-    line-height: 35px;
-    margin-left: -20%;
-    min-width: 300px;
-}
-.talks-container1-text2 {
-    font-size: 22px;
-    line-height: 35px;
-    margin-left: -20%;
-    min-width: 300px;   
-}
-.talks-container2-text1 {
-    font-size: 22px;
-    line-height: 35px;
-    margin-left: -20%;
-    min-width: 300px;
-}
-.talks-img {
-    width: 321px;
-    height: auto;
-    border: 2px solid #2C98A0;
-    margin-top: 200px;
-    margin-left: -330px; 
-}
-.talks-image-holder {
-    width: 721px;
-    height: 297px;
-    border: 10px #2C98A0; 
+    .talks-header {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .talks-container1-text1 {
+        font-size: 20px;
+        line-height: 30px;
+        min-width: 350px;
+    }
+    .talks-container1-text2 {
+        font-size: 20px;
+        line-height: 30px;
+        min-width: 350px;   
+    }
+    .talks-container2-text1 {
+        font-size: 20px;
+        line-height: 30px;
+        min-width: 350px;
+    }
+    .talks-img {
+        width: 300px;
+        height: auto;
+        border: 2px solid #2C98A0;
+        margin: 0;
+    }
 
-
-}
+    .talks-container2 {
+        flex-direction: column;
+        justify-content: space-between;
+    }
 
 }
