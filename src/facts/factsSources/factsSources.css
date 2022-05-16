@@ -1,5 +1,9 @@
 .factsSources {
     margin: 2rem 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .factsSources-header {
@@ -30,5 +34,10 @@
 }
 
 @media screen and (max-width: 768px) {
+    .factsSources {
 
+    }
+    .factsSources-list {
+        font-size: 12px;
+    }
 }

@@ -41,11 +41,4 @@ function App() {
     </Router>
   );
 }
-
-/*
-<Route path="/" exact element={<Main />} />
-<div onClick={help} className="chatbot-button">Click chatbot</div>
-<div className='chatbot-div'>
-          {chatBot? <Chatbot /> : ""}
-          </div> */
 export default App;
