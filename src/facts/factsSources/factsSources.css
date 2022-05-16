@@ -1,5 +1,4 @@
 .factsSources {
-    margin: 2rem 10rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,9 +33,6 @@
 }
 
 @media screen and (max-width: 768px) {
-    .factsSources {
-
-    }
     .factsSources-list {
         font-size: 12px;
     }
