@@ -2,6 +2,10 @@
     font-family: 'Roboto', sans-serif;
     padding: 2rem;
     margin-left: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .factsFooter-paragraph {
@@ -85,6 +89,69 @@
     color: #FFFFFF;
 }
 
+@media screen and (max-width: 1400px) {
+    .factsFooter-div1 {
+        height: 250px;
+        width: 900px;
+    }
+
+    .factsFooter-div2 {
+        height: 250px;
+        width: 900px;
+    }
+
+    .factsFooter-div1-text-bold {
+        font-size: 30px;
+    }
+    
+    .factsFooter-div1-text-light {
+        font-size: 18px;
+    }
+
+    .factsFooter-div2-text-bold {
+        font-size: 30px;
+    }
+    
+    .factsFooter-div2-text-light {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .factsFooter-div1 {
+        height: 200px;
+        width: 700px;
+    }
+
+    .factsFooter-div2 {
+        height: 200px;
+        width: 700px;
+    }
+
+    .factsFooter-div1-text-bold {
+        font-size: 25px;
+        line-height: 30px;
+        height: 30px;
+        margin: 0;
+    }
+    
+    .factsFooter-div1-text-light {
+        font-size: 14px;
+    }
+
+    .factsFooter-div2-text-bold {
+        font-size: 25px;
+        line-height: 30px;
+        height: 30px;
+        margin: 0;
+    }
+    
+    .factsFooter-div2-text-light {
+        font-size: 14px;
+    }
+}
+
+
 @media screen and (max-width: 768px) {
 
     .factsFooter {
@@ -109,9 +176,10 @@
     }
 
     .factsFooter-div1-text-bold {
-        font-size: 24px;
-        height: 220px;
+        font-size: 30px;
+        height: 160px;
         margin: 1rem;
+        line-height: 35px;
     }
 
     .factsFooter-div1-text-light {
@@ -120,7 +188,7 @@
     }
 
     .factsFooter-div2-text-bold {
-        font-size: 24px;
+        font-size: 30px;
         height: 180px;
         margin: 1rem;
     }
