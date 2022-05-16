@@ -3,6 +3,8 @@ import FactsContainer from './FactsContainer'
 import "./factsThird.css"
 
 export default function FactsThird() {
+
+  //used for storing content in facts site in the 3 boxes
   return (
     <div className='factsThird'>
         <div className='factsThird-h1'>Lapset kohtaavat päivittäin valtavan määrän, tuhansia erilaisia viruksia.

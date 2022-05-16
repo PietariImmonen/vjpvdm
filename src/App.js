@@ -13,17 +13,17 @@ import Comments from './comments/Comments';
 
 function App() {
 
-  const [chatBot, setChatBot] = useState(false)
+  const [chatBot, setChatBot] = useState(false) //used for showing Chatbot
 
 
   function help() {
     if(chatBot) {
       setChatBot(false)
     } else setChatBot(true)
-  }
+  } //setting Chatbot State
 
   
-
+  //Used for making the whole site, so all components gathered here and displayed on the screen
   return (
     <Router>
       <div className="App">
@@ -35,7 +35,7 @@ function App() {
               <Route path="/comments" element={<Comments />} />
             </Routes>
             <div onClick={help} className="chatbot-button"><SiChatbot size={"100px"}/></div>
-            <div className='chatbot-div'>
+            <div className='chatbot-div'> {/*These three lines are used for displaying the Chatbot on click the screen*/}
             {chatBot? <Chatbot /> : ""}
             </div>
         <Footer />

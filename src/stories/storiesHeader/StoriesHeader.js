@@ -2,6 +2,8 @@ import React from 'react'
 import "./storiesHeader.css"
 
 export default function StoriesHeader() {
+
+  //Header of the Stories Section
   return (
     <div className='storiesHeader'>
         <h1 className='storiesHeader-header'>Kolme tarinaa rokotteista</h1>

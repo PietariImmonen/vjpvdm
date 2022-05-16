@@ -2,6 +2,8 @@ import React from 'react'
 import "./factsSources.css"
 
 export default function FactsSources() {
+
+  //used for the all sources of the facts section
   return (
 
     <div className='factsSources'>

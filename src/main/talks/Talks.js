@@ -2,6 +2,8 @@ import React from 'react'
 import "./talks.css"
 
 export default function Talks() {
+
+  //all the contents of Main page after the video section
   return (
     <div className='talks'>
         <div className='talks-container1'>

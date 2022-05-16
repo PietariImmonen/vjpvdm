@@ -5,11 +5,13 @@ import Sidebar from './Sidebar'
 
 export default function WholeNav() {
 
-    const [isOpened, setIsOpened] = useState(false)
+  //Navbar components gathered
+
+    const [isOpened, setIsOpened] = useState(false) //checks if the Sidebar is opened
 
     const helper = () => {
         setIsOpened(!isOpened)
-    }
+    } //Sets the state
 
   return (
     <div>

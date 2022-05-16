@@ -4,9 +4,11 @@ import "./factsThird.css"
 
 export default function FactsContainer(props) {
 
-    const bgColor = props.bgColor ? "#2C98A0" : "white" ;
-    const textColor = props.bgColor ? "white" : "#000000";
-    const headerColor = props.bgColor ? "#CCE1DD" : "#2C98A0";
+  //used for one box in FactsThird
+
+    const bgColor = props.bgColor ? "#2C98A0" : "white" ; //bg color
+    const textColor = props.bgColor ? "white" : "#000000"; //text color
+    const headerColor = props.bgColor ? "#CCE1DD" : "#2C98A0"; //header color
 
   return (
     <div className='factsContainer' style={{

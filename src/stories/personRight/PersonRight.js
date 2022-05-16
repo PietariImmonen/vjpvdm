@@ -2,6 +2,8 @@ import React from 'react'
 import "./personRight.css"
 
 export default function PersonRight(props) {
+
+  //Contents of the persons who has the picture in left side
   return (
     <div className='personRight'>
       <img src={props.image} alt="imag" className='personRight-image1'/>

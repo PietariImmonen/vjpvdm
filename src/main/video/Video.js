@@ -2,6 +2,8 @@ import React from 'react'
 import "./video.css"
 
 export default function Video() {
+
+  //video of the main page
   return (
     <div className='video'>  
         <iframe className='video-frame'

@@ -5,7 +5,8 @@ class MessageParser {
     }
   
     parse(message) {
-      console.log(message)
+
+      //used for checking if user sent message contains the word and then displays the bots text from actionProvider!
       const lowercase = message.toLowerCase()
 
       if(lowercase.includes("rokote")) {

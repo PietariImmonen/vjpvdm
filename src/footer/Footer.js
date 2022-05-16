@@ -4,9 +4,12 @@ import { FaInstagram, FaTwitter, FaFacebook } from "react-icons/fa";
 
 export default function Footer() {
 
+  //used for the footer component and storing all the data in footer
+
   const style = {
     color: "black"
   }
+  //color of the link
 
   return (
     <div className='footer'>

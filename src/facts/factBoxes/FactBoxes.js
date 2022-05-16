@@ -2,6 +2,8 @@ import React from 'react'
 import "./factBoxes.css"
 
 export default function FactBoxes() {
+
+    //used for the boxes of the site containing information of the vaccines
   return (
     <div className='factBoxes'>
         <div className='factBoxes-first'>

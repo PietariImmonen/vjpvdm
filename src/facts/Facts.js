@@ -6,6 +6,8 @@ import FactsThird from './factsThird/FactsThird'
 import FactsSources from './factsSources/FactsSources'
 
 export default function Facts() {
+
+  //used for gather all the components to one place
   return (
     <div>
         <FactsHeader />

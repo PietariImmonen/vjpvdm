@@ -4,6 +4,8 @@ import FactsFooterDiv1 from './FactsFooterDiv1';
 import FactsFooterDiv2 from './FactsFooterDiv2';
 
 export default function FactsFooter() {
+
+  //used for writing the footer of the facts
   return (
     <div className='factsFooter'>
         <p className='factsFooter-paragraph'>Rokotteissa on vain ainesosio, jotka ovat tarpeellisia rokotteen

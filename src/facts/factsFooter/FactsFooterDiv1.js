@@ -1,8 +1,9 @@
 import React from 'react'
 import "./factsFooter.css"
-import { FaCheck } from "react-icons/fa";
 
 export default function FactsFooterDiv1(props) {
+
+    //used for the first box in FactsFooter
   return (
         <div className='factsFooter-div1'>
                <div className="factsFooter-div1-flex">

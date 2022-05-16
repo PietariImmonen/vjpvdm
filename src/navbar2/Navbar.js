@@ -8,6 +8,8 @@ import {
 import "./navbar.css"
 
 export default function Navbar(props) {
+
+  //all the contents of Navbar, used styled components
   return (
     <>
     <Nav>

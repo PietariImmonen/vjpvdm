@@ -14,6 +14,7 @@ class ActionProvider {
      this.createCustomMessage = createCustomMessage;
    }
 
+   //all functions used for sending bot message
    greet = () => {
      const message = this.createChatBotMessage("https://www.figma.com/file/ew9jmHa8nZIy8XECnZtr3A/Jutellaan-Rokotteista?node-id=0%3A1");
      this.addChatbotMessageToState(message);

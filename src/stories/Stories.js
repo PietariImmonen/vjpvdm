@@ -6,6 +6,8 @@ import PersonRight from './personRight/PersonRight'
 import StoriesHeader from './storiesHeader/StoriesHeader'
 
 export default function Stories() {
+
+  //All the components for Stories gathered and displayed!
   return (
     <div>
       <StoriesHeader />

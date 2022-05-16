@@ -9,3 +9,5 @@ export const SliderData = [
         image: "./kuva3.png"
     }
 ]
+
+//the data of the picture carousel

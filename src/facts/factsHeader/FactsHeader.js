@@ -4,6 +4,7 @@ import "./factsHeader.css"
 export default function FactsHeader() {
   return (
 
+    //used for writing the header for facts
     <div className='factsHeader'>
         <h1 className='factsHeader-header'>Totta vai tarua? </h1>
         <p className='factsHeader-text'>

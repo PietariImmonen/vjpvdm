@@ -2,7 +2,7 @@ import { FaBars } from 'react-icons/fa';
 import { NavLink as Link } from 'react-router-dom';
 import styled from 'styled-components';
 
-
+//styled components of the Navbar
 export const Nav = styled.nav`
     background: #EEEFF1;
     height: 80px;
@@ -10,7 +10,7 @@ export const Nav = styled.nav`
     justify-content: flex-start;
     padding: 0.5rem calc((100vw - 1000px) / 2);
     z-index: 10;
-`;
+`; //Container of the Navbar
 
 export const NavLink = styled(Link)`
     color: #2C98A0;
@@ -30,7 +30,7 @@ export const NavLink = styled(Link)`
     &.active {
         color: #000000;
     }
-`;
+`;//Link of the Navbar
 
 export const Bars = styled(FaBars)`
     display: none;
@@ -42,10 +42,10 @@ export const Bars = styled(FaBars)`
         top: 10px;
         right: 0;
         transform: translate(-100%, 75%);
-        font-size: 1.8rem;
+        font-size: 1.7rem;
         cursor: pointer;
     }
-`;
+`;//Opening icon of the Sidebar in the Navbar
 
 export const NavMenu = styled.div`
     display: flex;
@@ -61,4 +61,4 @@ Third Nav
     @media screen and (max-width: 768px) {
         display: none;
     }
-`;
+`; //Container of the Links in Navbar

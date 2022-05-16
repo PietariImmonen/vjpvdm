@@ -1,10 +1,12 @@
 import React, { useState } from 'react'
 import "./comments.css"
 
+//Component used for the comments site
+
 export default function Comments() {
 
-    const [comments, setComments] = useState([])
-    const [comment, setComment] = useState({name:"", desc:""})
+    const [comments, setComments] = useState([]) //used for all the comments
+    const [comment, setComment] = useState({name:"", desc:""}) //used for storing comment from form
 
     function handleChange(event) {
         setComment(prevComment => {
@@ -13,13 +15,13 @@ export default function Comments() {
                 [event.target.name]: event.target.value
             }
         })
-    }
+    } //used for checking and writing up the form
 
     function addNew() {
         setComments(prevComments => {
             return [...prevComments, comment]
         })
-    }
+    } //used for adding the comment to comments
 
   return (
     <div className='com'>

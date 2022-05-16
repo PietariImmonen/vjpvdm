@@ -1,5 +1,5 @@
 body {
-    background-color: #EEEFF1;
+    background-color: #FFF;
     margin: 0;
 }
 
@@ -8,6 +8,7 @@ body {
     align-items: center;
     justify-items: center;
     flex-direction: column;
+    margin-top: 1rem;
 }
 
 input, textarea {
