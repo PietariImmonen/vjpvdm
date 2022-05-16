@@ -26,7 +26,7 @@ export default function Comments() {
   return (
     <div className='com'>
         <div className='form-container'>
-            <h1>Kommentoi</h1>
+            <h1 className='comments-header'>Kommentoi</h1>
             <form>
                 <input
                     type="text"
