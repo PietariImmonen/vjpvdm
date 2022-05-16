@@ -4,6 +4,7 @@ import "./personRight.css"
 export default function PersonRight(props) {
   return (
     <div className='personRight'>
+      <img src={props.image} alt="imag" className='personRight-image1'/>
         <div className='personRight-text-holder'>
             <div className='personRight-text-header'>
                 <div className='personRight-h1'>{props.name}</div>

@@ -1,14 +1,11 @@
 .chatbot-button {
-    width: 150px;
-    height: 150px;
     top: 85%;
-    right: 40px;
-    background-color: #2C98A0;
+    right: 25px;
     position: fixed;
     cursor: pointer;
-    border-radius: 50%;
     z-index: 14;
     display: block;
+    color: #2D3142;
 }
 
 .chatbot-div {

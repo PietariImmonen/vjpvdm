@@ -49,25 +49,35 @@
     font-style: italic;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
     .personLeft-image {
-        height: 300px;
-        margin-top: -1000px;
-        margin-left: -50px;
+        height: 500px;
+        width: auto;
+        margin: 0;
     }
     .personLeft-h1 {
-        font-family: 'Caveat Brush';
-        font-style: normal;
-        font-weight: 400;
         font-size: 46px;
         line-height: 54px;
-        
     }
     .personLeft-h3 {
-        font-family: 'Roboto';
-        font-style: italic;
-        font-weight: 400;
         font-size: 27px;
         line-height: 29px;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .personLeft-image {
+        height: 400px;
+        width: auto;
+        margin-top: 1rem;
+    }
+
+    .personLeft {
+        flex-direction: column;
+    }
+
+    .personLeft-text-holder {
+        margin: 0;
     }
 }

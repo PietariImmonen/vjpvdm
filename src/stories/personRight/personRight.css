@@ -10,6 +10,7 @@
     height: 750px;
     margin: 3rem;
     border-radius: 20px;
+    display: block;
 }
 
 .personRight-text-holder {
@@ -42,9 +43,54 @@
     font-size: 24px;
     line-height: 30px;
     color: #000000;
-    max-width: 754px;
+    max-width: 655px;
+}
+
+.personRight-image1 {
+    height: 400px;
+    width: auto;
+    margin-top: 1rem;
+    display: none;
+    border-radius: 20px;
 }
 
 .personRight-quote {
     font-style: italic;
+}
+
+@media (max-width: 1000px) {
+
+    .personRight-image {
+        height: 500px;
+        width: auto;
+        margin: 0;
+    }
+
+}
+
+@media (max-width: 800px) {
+
+    .personRight-image {
+        height: 400px;
+        width: auto;
+        margin: 0;
+        display: none;
+    }
+
+    .personRight {
+        flex-direction: column;
+    }
+
+    .personRight-image1 {
+        display: block;
+    }
+
+    .personRight-text-holder {
+        margin: 2rem;
+    }
+
+    .personRight-text-holder {
+        margin: 0;
+    }
+
 }

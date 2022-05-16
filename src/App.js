@@ -8,6 +8,7 @@ import Facts from './facts/Facts';
 import { useState } from 'react';
 import "./chatHelper.css"
 import WholeNav from './navbar2/WholeNav';
+import { SiChatbot } from "react-icons/si"
 
 function App() {
 
@@ -31,7 +32,7 @@ function App() {
               <Route path="/stories" element={<Stories />} />
               <Route path="/facts" element={<Facts />} />
             </Routes>
-            <div onClick={help} className="chatbot-button">Click chatbot</div>
+            <div onClick={help} className="chatbot-button"><SiChatbot size={"100px"}/></div>
             <div className='chatbot-div'>
             {chatBot? <Chatbot /> : ""}
             </div>
