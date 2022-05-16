@@ -7,9 +7,9 @@ export default function Video() {
         <iframe className='video-frame'
         src="https://www.youtube.com/embed/CCUN9hn1J5g" 
         title="YouTube video player" 
-        frameborder="0" 
+        frameBorder="0" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-        allowfullscreen></iframe>
+        allowFullScreen></iframe>
     </div>
   )
 }

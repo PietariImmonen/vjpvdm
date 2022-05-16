@@ -18,14 +18,17 @@ export default function Navbar(props) {
       </NavLink>
       <Bars onClick={props.helper}/>
       <NavMenu>
-        <NavLink to='/' activeStyle>
+        <NavLink to='/'>
           etusivu
         </NavLink>
-        <NavLink to='/stories' activeStyle>
+        <NavLink to='/stories'>
           meidän tarinat
         </NavLink>
-        <NavLink to='/facts' activeStyle>
+        <NavLink to='/facts'>
           tietoa
+        </NavLink>
+        <NavLink to='/comments'>
+          kommentoi
         </NavLink>
       </NavMenu>
     </Nav>

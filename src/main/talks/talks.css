@@ -62,7 +62,7 @@
 @media (max-width: 750px) {
 
     .talks {
-        margin: 2rem;
+        margin: 1rem;
         position: relative;
     }
     
@@ -97,4 +97,16 @@
         justify-content: space-between;
     }
 
+}
+
+@media (max-width: 750px) {
+    .talks-container1-text1 {
+        min-width: 300px;
+    }
+    .talks-container1-text2 {
+        min-width: 300px;   
+    }
+    .talks-container2-text1 {
+        min-width: 300px;
+    }
 }

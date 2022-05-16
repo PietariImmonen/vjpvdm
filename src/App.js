@@ -9,6 +9,7 @@ import { useState } from 'react';
 import "./chatHelper.css"
 import WholeNav from './navbar2/WholeNav';
 import { SiChatbot } from "react-icons/si"
+import Comments from './comments/Comments';
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
               <Route path="/" exact element={<Main />} />
               <Route path="/stories" element={<Stories />} />
               <Route path="/facts" element={<Facts />} />
+              <Route path="/comments" element={<Comments />} />
             </Routes>
             <div onClick={help} className="chatbot-button"><SiChatbot size={"100px"}/></div>
             <div className='chatbot-div'>
