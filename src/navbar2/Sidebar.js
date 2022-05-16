@@ -13,9 +13,9 @@ export default function Sidebar(props) {
           <SidebarWrapper>
               <SidebarMenu>
                   <SidebarLink to="">etusivu</SidebarLink>
-                  <SidebarLink to="stories">meidän tarinat</SidebarLink>
+                  <SidebarLink to="stories">meidän tarinamme</SidebarLink>
                   <SidebarLink to="facts">tietoa</SidebarLink>
-                  <SidebarLink to="comments">kommentoi</SidebarLink>
+                  <SidebarLink to="comments">keskustelupalsta</SidebarLink>
               </SidebarMenu>
           </SidebarWrapper>
       </SidebarContainer>

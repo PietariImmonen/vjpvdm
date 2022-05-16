@@ -15,7 +15,7 @@ export default function Navbar(props) {
     <Nav>
       <NavLink to='/'>
         <div className='nav-header'>
-        Jutellaan Rokotteista
+        Jutellaan rokotteista.
         </div>
       </NavLink>
       <Bars onClick={props.helper}/>
@@ -24,13 +24,13 @@ export default function Navbar(props) {
           etusivu
         </NavLink>
         <NavLink to='/stories'>
-          meidän tarinat
+          meidän tarinamme
         </NavLink>
         <NavLink to='/facts'>
           tietoa
         </NavLink>
         <NavLink to='/comments'>
-          kommentoi
+          keskustelupalsta
         </NavLink>
       </NavMenu>
     </Nav>
