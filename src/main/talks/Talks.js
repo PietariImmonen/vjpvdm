@@ -7,13 +7,13 @@ export default function Talks() {
   return (
     <div className='talks'>
         <div className='talks-container1'>
-            <h1 className='talks-header'>Keskustelua rokotteista 14.6. Messukeskuksessa</h1>
-            <p className='talks-container1-text1'>Onko lapsillasi suositusten mukaiset rokotteet? Mietityttääkö rokotteiden vaikutukset?
-                Kaipaatko lisätietoa aiheesta?
+            <h1 className='talks-header'>Keskustelua rokotteista 14.6. Messukeskuksessa ja verkossa</h1>
+            <p className='talks-container1-text1'>Onko lapsillasi suositusten mukaiset rokotteet? Mietityttävätkö rokotteiden haittavaikutukset?
+                Kaipaatko lisätietoa rokotuspäätöksesi tueksi?
             </p>
-            <p className='talks-container1-text2'>Tule juttelemaan kanssamme Messukeskukseen! Kesäkuussa on tarjolla turvallinen ympäristö,
-             jossa asiantuntijat ovat vastaamassa juuri sinun kysymyksiisi.
-              Tule mukaan keskustelevaan ilmapiiriin ja tuo esille myös omat kokemukset. 
+            <p className='talks-container1-text2'>Tule juttelemaan aiheesta kanssamme kesäkuussa Messukeskukseen! Tarjoamme turvallisen ympäristön,
+             jossa asiantuntijat ovat vastaamassa juuri sinua askarruttaviin kysymyksiin.
+              Keskustelevassa ilmapiirissämme pääset kuulemaan muiden kokemuksia ja voit halutessasi kertoa oman tarinasi. 
             </p>
         </div>
 
@@ -21,7 +21,7 @@ export default function Talks() {
             <p className='talks-container2-text1'>Tapahtumassa on tarjolla 
                 ohjelmaa lapsille, joten voit 
                 ottaa mukaan myös perheen
-                pienimmät!
+                pienimmät! Keskustelu on kuitenkin käynnissä jo ennen tapahtumaa verkkosivumme keskustelupalstalla.
             </p>
             <img src="/Lastenpiirros.png" alt="slider" className='talks-img'/>
         </div>
