@@ -4,7 +4,7 @@ const config = {
 
     //Creating the first message of chatbot and also Bg Color of sent message from bot and chatButton
     botname: "RokoteBot",
-    initialMessages: [createChatBotMessage(`Heippa, mahdolliset komentomme ovat /rokote, /lastentaudit, /infektio, /haittavaikutus, /hyöty, /immuniteetti, /lisäinfoa`)],
+    initialMessages: [createChatBotMessage(`Heippa, kysy minulta "Mikä on rokote?" tai "Mitä hyötyä rokotteista?". Osaan puhua seuraavista aiheista: rokote, lastentaudit, infektio, haittavaikutus, hyöty, immuniteetti, lisäinfoa.`)],
     customStyles: {
         botMessageBox: {
             backgroundColor: '#2D3142',
