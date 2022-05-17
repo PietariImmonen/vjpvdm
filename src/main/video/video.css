@@ -13,11 +13,12 @@
     .video {
         width: 70%;
         height: auto;
+        margin: 3rem;
     }
 
     .video-frame{
         width: 600px;
         height: 300px;
-        margin-left: 4rem;
+
     }
 }
