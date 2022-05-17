@@ -45,10 +45,10 @@
 }
 
 .footer-contacts p {
-    margin: 0 0 1rem 0;
+    margin: 0;
 }
 .footer-contacts h1 {
-    margin: 2rem 0 1rem 0;
+    margin: 2rem 0 0.5rem 0;
     font-size: 20px;
     font-weight: 400;
     font-style: italic;
@@ -67,9 +67,10 @@
     margin-top: 3rem;
     display: flex;
     flex-direction: row;
-    gap: 80px;
+    gap: 30px;
     font-weight: 500;
     color: #175054;
+    align-items: center;
 }
 
 .social-container {
