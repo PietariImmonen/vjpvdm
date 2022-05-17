@@ -36,7 +36,7 @@ export const Bars = styled(FaBars)`
     display: none;
     color: #2C98A0;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 900px) {
         display: block;
         position: absolute;
         top: 10px;
@@ -58,7 +58,7 @@ Third Nav
         width: 100vw;
     white-space: nowrap; 
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 900px) {
         display: none;
     }
 `; //Container of the Links in Navbar
