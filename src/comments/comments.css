@@ -78,4 +78,8 @@ p {
     p {
         font-size: 12px;
     }
+
+    input, textarea {
+        width: 300px;
+    }
 }
