@@ -28,7 +28,7 @@ body {
 
 .header-text2 {
     font-family: 'Roboto', cursive;
-    font-size: 35px;
+    font-size: 30px;
     color: #2D3142;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
@@ -44,6 +44,13 @@ body {
     height: auto;
     opacity: 0.5;
 }
+
+@media (max-width: 1200px) {
+    .header-text {
+        font-size: 80px;
+    }
+}
+
 
 @media (max-width: 1000px) {
 

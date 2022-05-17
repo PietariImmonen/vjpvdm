@@ -36,8 +36,8 @@ export default function Header(props) {
   return (
     <div className='header'>
       <div className='texts'>
-        <h1 className='header-text'>Jutellaan rokotteista</h1>
-        <h4 className='header-text2'>Terveys on meidän kaikkien yhteinen asia. Suurista päätöksistä on hyvä keskustella – etenkin kun ne koskettavat rakkaimpiamme. Tule juttelemaan rokotteista 14.6.</h4>
+        <h1 className='header-text'>Jutellaan rokotteista.</h1>
+        <h4 className='header-text2'>Terveys on meidän kaikkien yhteinen asia.<br />Suurista päätöksistä on hyvä keskustella – etenkin <br />kun ne koskettavat rakkaimpiamme.<br />Tule juttelemaan rokotteista 14.6.</h4>
       </div>
         <div className='slider'>
           {props.slides.map((img, index) => {
