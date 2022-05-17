@@ -20,7 +20,7 @@ export default function Footer() {
         <div className='footer-contacts'>
             <h1>Ota yhteyttä</h1>
             
-            <p><span>puhelinnumero </span>0400404004 – <span>sähköposti </span>hus.rokote@hus.fi</p>
+            <p><span>puhelinnumero </span>0400404004 <span>sähköposti </span>hus.rokote@hus.fi</p>
             <p><span>osoite </span><i>Haartmaninkatu 4, 00290 HELSINKI</i></p>
         </div>
         <div className='footer-social'>
@@ -35,7 +35,7 @@ export default function Footer() {
                 <FaFacebook size="50px"/>
               </a>
             </div>
-            <p className='social-hus'>HUS 2022</p>
+            <p className='social-hus'>&copy; 2022 HUS</p>
         </div>
     </div>
   )
