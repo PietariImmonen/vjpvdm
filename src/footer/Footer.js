@@ -7,7 +7,7 @@ export default function Footer() {
   //used for the footer component and storing all the data in footer
 
   const style = {
-    color: "black"
+    color: "#175054"
   }
   //color of the link
 
@@ -15,7 +15,7 @@ export default function Footer() {
     <div className='footer'>
         <div className='footer-logo'>
           <img src="/helsinki.png" alt="imag" className='helsinki-png'/>
-          <img src="/hus.png" alt="imag" className='hus-png'/>
+          <div className='hus'><img src="/hus.png" alt="imag" className='hus-png'/></div>
         </div>
         <div className='footer-contacts'>
             <h1>Ota yhteyttä</h1>

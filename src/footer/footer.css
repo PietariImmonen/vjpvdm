@@ -22,14 +22,18 @@
     justify-content: center;
     margin-left:1rem;
     padding-top: 4rem;
+    align-items: center;
 }
 
 .helsinki-png {
     width: 150px;
+    height: auto;
 }
+
 
 .hus-png {
     width: 150px;
+    height: auto;
 }
 
 .footer-contacts {
