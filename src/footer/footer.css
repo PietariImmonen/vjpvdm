@@ -24,11 +24,11 @@
 }
 
 .helsinki-png {
-    width: 200px;
+    width: 150px;
 }
 
 .hus-png {
-    width: 200px;
+    width: 150px;
 }
 
 .footer-contacts {
@@ -38,6 +38,9 @@
     padding-top: 1rem;
     margin-left: 1rem;
     color: #175054;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .footer-contacts p {
@@ -45,12 +48,12 @@
 }
 .footer-contacts h1 {
     margin: 2rem 0 1rem 0;
-    font-size: 40px;
+    font-size: 20px;
     font-weight: 400;
     font-style: italic;
 }
 
-.footer-contacts h2 {
+.footer-contacts span {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
