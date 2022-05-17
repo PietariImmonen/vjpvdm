@@ -21,13 +21,16 @@
     gap: 80px;
     justify-content: center;
     margin-left:1rem;
-    padding-top: 4rem;
     align-items: center;
 }
 
 .helsinki-png {
     width: 150px;
     height: auto;
+}
+
+.hus {
+    margin-bottom: 20px;
 }
 
 
@@ -91,13 +94,23 @@
     }
 
     .footer-contacts h1 {
-        font-size: 30px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .footer-contacts p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .footer-contacts span {
+        font-size: 12px;
+        line-height: 16px;
     }
 
     .footer-contacts {
-        font-size: 14px;
-        gap: 10px;
+        gap: 3px;
         margin-bottom: 1rem;
+        text-align: center;
     }
 
     .footer {
