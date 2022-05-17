@@ -13,20 +13,15 @@ export default function Footer() {
 
   return (
     <div className='footer'>
-      <div className='footer-logo-contacts'>
         <div className='footer-logo'>
-        <img src="/helsinki.png" alt="imag" className='helsinki-png'/>
-        <img src="/hus.png" alt="imag" className='hus-png'/>
+          <img src="/helsinki.png" alt="imag" className='helsinki-png'/>
+          <img src="/hus.png" alt="imag" className='hus-png'/>
         </div>
         <div className='footer-contacts'>
             <h1>Ota yhteyttä</h1>
-            <h2>puhelinnumero</h2>
-            <p>0400404004</p>
-            <h2>sähköposti</h2>
-            <p>hus.rokote@hus.fi</p>
-            <h2>osoite</h2>
-            <p><i>Haartmaninkatu 4 1<br />00290 HELSINKI</i></p>
-        </div>
+            
+            <p><span>puhelinnumero </span>0400404004 – <span>sähköposti </span>hus.rokote@hus.fi</p>
+            <p><span>osoite </span><i>Haartmaninkatu 4, 00290 HELSINKI</i></p>
         </div>
         <div className='footer-social'>
             <div className='social-container'>
