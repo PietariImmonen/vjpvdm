@@ -131,23 +131,28 @@
     }
 
     .factBox-normal {
-        font-size: 16px;
+        font-size: 18px;
+        line-height: 24px;
     }
 
     .factBox-big {
-        font-size: 40px;
+        font-size: 50px;
+        line-height: 60px;
     }
 
     .factBox-dif {
-        font-size: 16px;
+        font-size: 18px;
+        line-height: 22px;
     }
 
     .factBox-difBig {
-        font-size: 40px;
+        font-size: 50px;
+        line-height: 60px;
     }
 
     .factBox-difs {
         font-size: 18px;
+        line-height: 22px;
     }
 }
 

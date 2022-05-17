@@ -8,15 +8,16 @@
 
 .footer-logo-contacts {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
 .footer-logo{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 80px;
     justify-content: center;
+    margin-left:1rem;
 }
 
 .helsinki-png {
@@ -28,19 +29,32 @@
 }
 
 .footer-contacts {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 600;
     padding-top: 1rem;
     margin-left: 1rem;
+    color: #175054;
 }
 
 .footer-contacts p {
-    margin: 0;
+    margin: 0 0 1rem 0;
 }
+.footer-contacts h1 {
+    margin: 2rem 0 1rem 0;
+    font-size: 40px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.footer-contacts h2 {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: italic;
+}
+
 
 .footer-social {
     margin-top: 3rem;
@@ -48,19 +62,24 @@
     flex-direction: column;
     gap: 80px;
     font-weight: 500;
-    color: #ffffff;
+    color: #175054;
 }
 
 .social-container {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    color: #ffffff;
+    color: #175054;
 }
 
 @media screen and (max-width: 1000px) {
-    .footer-logo-contacts {
+    .footer-logo {
         flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-contacts h1 {
+        font-size: 30px;
     }
 
     .footer-contacts {

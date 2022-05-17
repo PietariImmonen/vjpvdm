@@ -19,10 +19,13 @@ export default function Footer() {
         <img src="/hus.png" alt="imag" className='hus-png'/>
         </div>
         <div className='footer-contacts'>
-            <p>Ota yhteyttä</p>
-            <p>Puh. Nro. 0400404004</p>
-            <p>Sähköposti: hus.rokote@hus.fi</p>
-            <p>Osoite: Hämeentie 1</p>
+            <h1>Ota yhteyttä</h1>
+            <h2>puhelinnumero</h2>
+            <p>0400404004</p>
+            <h2>sähköposti</h2>
+            <p>hus.rokote@hus.fi</p>
+            <h2>osoite</h2>
+            <p><i>Haartmaninkatu 4 1<br />00290 HELSINKI</i></p>
         </div>
         </div>
         <div className='footer-social'>

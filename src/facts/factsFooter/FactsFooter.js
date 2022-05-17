@@ -8,8 +8,8 @@ export default function FactsFooter() {
   //used for writing the footer of the facts
   return (
     <div className='factsFooter'>
-        <p className='factsFooter-paragraph'>Rokotteissa on vain ainesosio, jotka ovat tarpeellisia rokotteen
-             toimivuuden kannalta. Rokotteista aiheuttavat välillä lieviä
+        <p className='factsFooter-paragraph'>Rokotteissa on vain ainesosia, jotka ovat tarpeellisia rokotteen
+             toimivuuden kannalta. Rokotteista aiheutuu välillä lieviä
             haittavaikutuksia, kuten pistokohtan kipeyttä tai kuumetta,
             mutta vakavat haittavaikutukset ovat harvinaisia.
         </p>
@@ -18,9 +18,9 @@ export default function FactsFooter() {
             kestää yleensä lähes vuosikymmenen.
         </p>
         <p className='factsFooter-paragraph'>Erikoistapauksissa
-            nopeammalla aikataululla kehitetyt pandemiarokotteet (kuten koronarokote)
-            eivät jousta tästä äärimmäisen turvallisuusprosessista vaatimuksilta mitenkään,
-            vaan useiden vuosien perättäiset testausvaiheet on suoritettu vain yhtä aikaa.
+            nopeammalla aikataululla kehitetyt pandemiarokotteet 
+            eivät jousta tästä äärimmäisen turvallisuusprosessista vaatimuksilta mitenkään.
+            Koronarokotteen tapauksessa useiden vuosien perättäiset testausvaiheet on suoritettiin vain yhtä aikaa.
        </p>
 
        <div className='factsFooter-container'>
@@ -34,7 +34,7 @@ export default function FactsFooter() {
            />
            <FactsFooterDiv1 
            header="Haittavaikutuksia seurataan suurella tarkkuudella"
-           text="Kaikilla lääkkeilla on epäsuoria vaikutuksia, mutta niitä pystytään hallitsemaan tarkalla seurannalla. Suomessa tietoja tallennetaan muun muassa THL:n rokotusrekisteriin, josta dataa muihin tietokantoihin yhdistelemällä voidaan löytää syy-seuraussuhtteita."
+           text="Kaikilla lääkkeilla on epäsuoria vaikutuksia, mutta niitä pystytään hallitsemaan tarkalla seurannalla. Suomessa tietoja tallennetaan muun muassa THL:n rokotusrekisteriin, josta dataa muihin tietokantoihin yhdistelemällä voidaan löytää syy-seuraussuhteita."
            />
        </div>
     </div>

@@ -7,13 +7,13 @@ export default function FactsThird() {
   //used for storing content in facts site in the 3 boxes
   return (
     <div className='factsThird'>
-        <div className='factsThird-h1'>Lapset kohtaavat päivittäin valtavan määrän, tuhansia erilaisia viruksia.
+        <div className='factsThird-h1'>Lapset kohtaavat päivittäin valtavan määrän – tuhansia erilaisia – viruksia.
          Rokotteet opettavat lapsesi immuunijärjestelmää puolustustautumaan sellaisilta viruksilta,
           joita ihminen ei vielä syntyessään tunnista. 
         </div>
         <div className='factsThird-h1'>
            Rokotteet eivät sisällä toimivaa virusta sellaisenaan,
-           vaan immuunijärjestelmän aktivointi tapahtuu muilla tavoin. On useita syitä hankkia rokote.
+           vaan immuunijärjestelmän aktivointi tapahtuu muilla tavoin. On useita inhimillisiä syitä hankkia rokote.
         </div>
         <div className='factsThird-flex'>
             <FactsContainer 

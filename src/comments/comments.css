@@ -17,6 +17,9 @@ input, textarea {
     border: 1px solid #FFF;
     border-radius: 10px;
     display: block;
+    background-color: #EEEFF1;
+    width: 400px;
+    padding: 5px;
 }
 
 .form-container {
@@ -26,13 +29,19 @@ input, textarea {
     flex-direction: column;
     height: 400px;
     width: 30%;
-    background-color: #2C98A0;
     border-radius: 20px;
     margin: auto;
 }
 
-h1 {
+
+.comments-header {
     font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 74px;
+    line-height: 84px;
+    color: #2C98A0;
+    margin: 0;
 }
 
 h2 {
@@ -56,6 +65,11 @@ p {
 }
 
 @media (max-width: 700px) {
+
+    .comments-header {
+        font-size: 40px;
+        line-height: 44px;
+    }
     
     .form-container{
         width: 80%;
