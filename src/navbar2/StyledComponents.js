@@ -20,7 +20,7 @@ export const NavLink = styled(Link)`
     padding: 0 1rem;
     height: 100%;
     cursor: pointer;
-    font-size: 25px;
+    font-size: 24px;
     font-family: 'Roboto', sans-serif;
     font-style: italic;
 
