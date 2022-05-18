@@ -14,16 +14,11 @@ export default function Header(props) {
 
   const nextSlide = () => {
     setCurrent(current === slideLength - 1 ? 0 : current + 1);
-    console.log("next");
   }; //setting the state of the next picture and rolling over of the list
 
   function auto() {
     slideInterval = setInterval(nextSlide, intervalTime);
   } //setting the interval
-
-  useEffect(() => {
-    setCurrent(0);
-  }, []); //using effect
 
   useEffect(() => {
     if (automatic) {
