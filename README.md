@@ -8,3 +8,5 @@ This site has made of the project of the course Viestintä ja Digitaalinen media
 
 To use this site, download the zip to your computer, you must have installed NodeJS, after installing both of
  the files, open terminal and type "npm install" after installing you must write "npm start" to terminal
+ 
+ You can use the site in: https://master.d2g2d3gqy78eyt.amplifyapp.com/
